@@ -1,0 +1,36 @@
+.item{
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+  
+  .item span {
+    background:blue;
+    color: white;
+    padding: 3px;
+    float:left;
+    border-radius: 30%;
+  }
+.item p{
+    margin :6px 0px
+}
+.item img{
+    width:350px
+}
+.button{
+    font-size: 18px;
+    font-weight:600;
+    color: aqua;
+    float:right
+
+}
+.price{
+    font-size: 18px;
+    font-weight:600;
+    color: aqua;
+}
+item:hover{
+    transform:scale(1.05);
+    transition:0.6s;
+}

@@ -1,0 +1,21 @@
+.newarrival{
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.newarrival p{
+    margin :6px 0px
+}
+.newarrival img{
+    width:350px
+}
+.price{
+    font-size: 18px;
+    font-weight:600;
+    color: aqua;
+}
+.newarrival:hover{
+    transform:scale(1.05);
+    transition:0.6s;
+}
