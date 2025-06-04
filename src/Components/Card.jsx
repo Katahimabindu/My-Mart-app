@@ -10,7 +10,7 @@ function GroupExample() {
   return (
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src="holder.js/20px10" />
+        {/* <Card.Img variant="top" src="holder.js/20px10" /> */}
         <Card.Body>
           <Card.Title><img src={car}/></Card.Title>
           <Card.Text>
@@ -20,7 +20,7 @@ function GroupExample() {
     
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
         <Card.Body>
           <Card.Title><img src={payment}/></Card.Title>
           <Card.Text>
@@ -30,7 +30,7 @@ function GroupExample() {
     
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
         <Card.Body>
           <Card.Title><img src={sec}/></Card.Title>
           <Card.Text>
@@ -41,13 +41,13 @@ function GroupExample() {
     
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
         <Card.Body>
           <Card.Title><img src={headphone}/></Card.Title>
           <Card.Text>
           Lorem ipsum dolor, sit amet 
           </Card.Text>
-          <button>+</button>
+        
         </Card.Body>
         
     
