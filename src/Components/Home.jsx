@@ -1,7 +1,7 @@
 
 import React,{Component} from 'react'
-import Carousel from '../Components/Carousel';
-import Card from '../Components/Card';
+import Carousel from './Carousel';
+import Card from './Card';
 import Bigdiscount from './Bigdiscount';
 import Banner from './Banner';
 import 'bootstrap/dist/css/bootstrap.min.css'
