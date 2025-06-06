@@ -6,6 +6,7 @@ import Shop from '../Shop'
 const Routing = () => {
   return (
 <Routes>
+  <Route path='/' element={<Home/>}/>
 <Route path='/Products' element={<Home/>}/>
 <Route path='/Shop' element={<Shop/>}/>
 <Route path='/Cart' element={<Cart/>}/>
