@@ -16,12 +16,12 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black" ,opacity:0.1}}
+      style={{ ...style, display: "block", background: "pink" ,opacity:0.9}}
       onClick={onClick}
     />
   );
 }
-function Carousel(){
+export default function simpleSlider(){
 
   var settings = {
     dots: true,
@@ -29,6 +29,7 @@ function Carousel(){
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: true,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
     initialSlide: 0,
@@ -51,43 +52,43 @@ function Carousel(){
     ]
   };
   return (
-<div className>
+// {/* <div className> */}
   
 <Slider {...settings}>
   <div className='hero'>
     <div className='hero-left'>
 <h2>50% Off For Your Shopping</h2>
-<p>Lorem ipsum dolar sit amet,quis lobertis,consequat,quam acium ut convalis</p>
-<h4>visit clooections</h4>
+<p>spotlight with our brands</p>
+<h4>visit collections</h4>
   </div>
-       <div className='hero-right'> <img src={hero} alt="" className="w-80" /></div>
+       <div className='hero-right'> <img src={hero} alt="" /></div>
       </div>
       <div className='hero'>
     <div className='hero-left'>
 <h2>50% Off For Your Shopping</h2>
-<h3>Lorem ipsum dolar sit amet,quis lobertis,consequat,quam acium ut convalis</h3>
-<h4>visit clooections</h4>
+<p>shine through our top brands</p>
+<h4>visit collections</h4>
   </div>
-       <div className='hero-right'> <img src={phone} alt="" className="w-80" /></div>
+       <div className='hero-right'> <img src={phone} alt=""  /></div>
       </div>
       <div className='hero'>
     <div className='hero-left'>
 <h2>50% Off For Your Shopping</h2>
-<h3>Lorem ipsum dolar sit amet,quis lobertis,consequat,quam acium ut convalis</h3>
-<h4>visit clooections</h4>
+<p>spotlight with our brands</p>
+<h4>visit collections</h4>
   </div>
-       <div className='hero-right'> <img src={wireless} alt="" className="w-80" /></div>
+       <div className='hero-right'> <img src={wireless} alt="" /></div>
       </div>
 
       <div className='hero'>
     <div className='hero-left'>
 <h2>50% Off For Your Shopping</h2>
-<h3>Lorem ipsum dolar sit amet,quis lobertis,consequat,quam acium ut convalis</h3>
-<h4>visit clooections</h4>
+<p>spotlight with our brands</p>
+<h4>visit collections</h4>
   </div>
-       <div className='hero-right'> <img src={watch} alt="" className="w-80" /></div>
+       <div className='hero-right'> <img src={watch} alt=""  /></div>
       </div>    
-    </Slider></div>
+    </Slider>
 
 
     
@@ -97,5 +98,5 @@ function Carousel(){
 
     
     
-export default Carousel
+// export default Carousel
     

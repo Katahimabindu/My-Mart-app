@@ -10,16 +10,14 @@ const Footer = () => {
 <Stack>
     <h2>Mart</h2>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis</p>
+    <p>Sell on Mart,sell under Acceleretor,protect and build your brand/Global selling,Become an Affilliate,Advertise your products</p>
     </Stack></Col>
 <Col>
 <Nav className='flex-column fs-5'>
-About us
-<br></br>
-<br></br>
+<h2>Let us help you</h2>
 <NavLink href="#" className="text-white">carrers</NavLink>
-<NavLink href="#" className="text-white">ourstores</NavLink>
-<NavLink href="#" className="text-white">ourcares</NavLink>
+<NavLink href="#" className="text-white">our stores</NavLink>
+<NavLink href="#" className="text-white">our cares</NavLink>
 <NavLink href="#" className="text-white">terms nd conditions</NavLink>
 <NavLink href="#" className="text-white">privcy policy</NavLink>
 </Nav>

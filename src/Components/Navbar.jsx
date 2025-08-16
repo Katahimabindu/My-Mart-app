@@ -17,9 +17,10 @@ const Navbar = () => {
         <li><Link style={{textDecoration:'none', width:'200%'}}to ='/Products'>Home</Link></li>
         <li><Link style={{textDecoration:'none'}} to = '/Shop'>Shop</Link></li>
         <li><Link style={{textDecoration:'none'}} to='/Cart'>Cart</Link></li>
+        <li><Link style={{textDecoration:'none'}} to='/login'>login</Link></li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
+        
       <Link to='/Cart' > <img src={cart} alt=""/></Link>
 <div className="nav-cart-count">{cartTotalQuantity}</div>
       </div>
